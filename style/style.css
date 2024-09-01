@@ -1,0 +1,32 @@
+body {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    height: 100vh;
+    
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color:rgb(205, 197, 197);
+}
+
+.header, .footer {
+    grid-column: span 2;
+    background-color: rgb(104, 103, 103);
+    color: antiquewhite;
+    text-align: center;
+    
+}
+
+.aside {
+    background-color: rgb(104, 103, 103);
+    color: antiquewhite;
+    text-align: center;
+    gap: 10px;
+}
+
+.section {
+    background-color:rgb(160, 151, 151);
+    margin: 10px;
+}
